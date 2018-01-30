@@ -1,0 +1,23 @@
+<Bar
+                  data={chart1}
+                  height={220}
+                  options={{
+                    scales: {
+                    yAxes: [{
+                      scaleLabel: {
+                        display: true,
+                        labelString: 'probability',
+                        fontColor:'white'
+                      },
+                        ticks: {
+                            beginAtZero:true,
+			    fontColor: 'red'
+                        }
+                    }]
+                }
+                  }}
+                />
+
+
+
+https://stackoverflow.com/questions/35383677/change-color-of-x-and-y-axis-values-chart-js
